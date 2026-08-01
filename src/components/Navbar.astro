@@ -1,0 +1,45 @@
+---
+const navLinks = [
+  { name: 'Inicio', href: '#inicio' },
+  { name: 'Servicios', href: '#servicios' },
+  { name: 'Trayectoria', href: '#trayectoria' },
+  { name: 'Contacto', href: '#contacto' },
+];
+---
+
+<nav class="fixed top-0 left-0 right-0 z-50 bg-bg-primary/95 backdrop-blur-sm border-b border-white/10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        <a href="#" class="text-xl md:text-2xl font-bold text-text-primary font-inter">
+          Xpeednet
+        </a>
+      </div>
+
+      <!-- Desktop Navigation (Center) -->
+      <div class="hidden md:flex items-center space-x-8">
+        {
+          navLinks.map((link) => (
+            <a
+              href={link.href}
+              class="text-text-secondary hover:text-text-primary transition-colors duration-200 font-medium"
+            >
+              {link.name}
+            </a>
+          ))
+        }
+      </div>
+
+      <!-- CTA Button (Right) -->
+      <div class="flex items-center">
+        <a
+          href="#contacto"
+          class="bg-accent-cyan text-bg-primary font-semibold py-2 px-4 md:py-2.5 md:px-6 rounded-lg hover:bg-accent-cyan/90 transition-all duration-200 shadow-lg shadow-accent-cyan/20 hover:shadow-accent-cyan/30"
+        >
+          Solicitá un diagnóstico
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

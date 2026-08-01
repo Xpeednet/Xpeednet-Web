@@ -28,7 +28,7 @@ Rediseñar www.xpeednet.com como un sitio estático moderno, rápido y orientado
    - H1: "Mantenemos tu negocio andando. Soporte técnico, redes y optimización para PyMEs."
    - Subtítulo: "Nos encargamos del mantenimiento de tus equipos y sistemas para que tu operación nunca se detenga."
    - CTA: Botón grande "Solicitá un diagnóstico".
-3. **Stats (Trayectoria):** 3 columnas. "+20 Años de trayectoria", "+1.800 Clientes", "+4.400 Equipos reparados". (Números en JetBrains Mono, color cyan).
+3. **Stats (Trayectoria):** 3 columnas. "+20 Años de trayectoria", "+800 Clientes", "+1.900 Equipos reparados". (Números en JetBrains Mono, color cyan).
 4. **Servicios (3 Pilares en Cards horizontales o Grid):**
    - *Pilar 1 (Soporte):* Reparación, Abonos, Soporte IT.
    - *Pilar 2 (Infraestructura):* Redes, Servidores (Windows), Seguridad de Datos (Backups/Antivirus).

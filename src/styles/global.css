@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/jetbrains-mono/400.css";
+
+@theme {
+  --color-bg-primary: #0a0e27;
+  --color-bg-secondary: #151932;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a0aec0;
+  --color-accent-cyan: #00d9ff;
+  --color-accent-violet: #7c3aed;
+  
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+}
