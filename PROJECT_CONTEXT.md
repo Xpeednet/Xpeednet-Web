@@ -1,4 +1,4 @@
-# Xpeednet Web - Project Context
+# XPEEDnet Web - Project Context
 
 ## 1. Objetivo del Proyecto
 Rediseñar www.xpeednet.com como un sitio estático moderno, rápido y orientado a la conversión de PyMEs. El foco principal es vender servicios de soporte técnico y mantenimiento (base actual del negocio), posicionando el desarrollo de software y la **automatización de procesos (n8n, OpenClaw)** como servicios de evolución/escalado.

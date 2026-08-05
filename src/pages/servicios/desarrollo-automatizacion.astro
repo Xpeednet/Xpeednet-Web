@@ -1,0 +1,123 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import SubpageHero from '../../components/subpage-hero.astro';
+import FinalCTA from '../../components/FinalCTA.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Layout title="Desarrollo y Automatización - XPEEDnet">
+  <Navbar />
+
+  <SubpageHero
+    title="Desarrollo y Automatización"
+    description="Llevamos tu negocio al siguiente nivel: software a medida, automatización de procesos con n8n y OpenClaw, y desarrollo web que escala con vos."
+    accent="text-accent-cyan"
+  />
+
+  <main>
+    <!-- Desarrollo de Software a Medida -->
+    <section class="bg-bg-primary py-16 md:py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold text-text-primary font-inter">
+              Desarrollo de Software a Medida
+            </h2>
+            <p class="text-text-secondary mt-4 font-inter leading-relaxed">
+              Soluciones digitales diseñadas para la operación real de tu negocio. Analizamos tu
+              flujo de trabajo y desarrollamos la herramienta que tu equipo necesita.
+            </p>
+          </div>
+          <div class="bg-bg-secondary p-8 rounded-xl border border-accent-cyan/30">
+            <h3 class="text-lg font-bold text-accent-cyan font-inter mb-3">Incluye</h3>
+            <ul class="space-y-2">
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-cyan mr-2">▹</span>Aplicaciones y sistemas internos
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-cyan mr-2">▹</span>Integración con herramientas existentes
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-cyan mr-2">▹</span>Mantenimiento y evolución del producto
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Automatización con n8n y OpenClaw -->
+    <section class="bg-bg-secondary py-16 md:py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div class="bg-bg-primary p-8 rounded-xl border border-accent-violet/30 order-2 md:order-1">
+            <h3 class="text-lg font-bold text-accent-violet font-inter mb-3">Incluye</h3>
+            <ul class="space-y-2">
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Automatización de tareas repetitivas
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Integración entre sistemas y apps
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Flujos inteligentes con agentes
+              </li>
+            </ul>
+          </div>
+          <div class="order-1 md:order-2">
+            <div class="flex flex-wrap gap-2 mb-4">
+              <span class="inline-block font-mono text-sm text-white bg-accent-violet/20 border border-accent-violet/40 px-3 py-1 rounded-md">
+                n8n
+              </span>
+              <span class="inline-block font-mono text-sm text-white bg-accent-violet/20 border border-accent-violet/40 px-3 py-1 rounded-md">
+                OpenClaw
+              </span>
+            </div>
+            <h2 class="text-2xl md:text-3xl font-bold text-text-primary font-inter">
+              Automatización con n8n y OpenClaw
+            </h2>
+            <p class="text-text-secondary mt-4 font-inter leading-relaxed">
+              Automatizamos flujos de trabajo con n8n y OpenClaw: conectamos tus aplicaciones,
+              eliminamos tareas manuales y liberamos tiempo para lo que importa en tu negocio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Desarrollo Web y Hosting -->
+    <section class="bg-bg-primary py-16 md:py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold text-text-primary font-inter">
+              Desarrollo Web y Hosting
+            </h2>
+            <p class="text-text-secondary mt-4 font-inter leading-relaxed">
+              Sitios web rápidos y orientados a la conversión, con hosting administrado. Tu
+              presencia digital profesional y siempre disponible.
+            </p>
+          </div>
+          <div class="bg-bg-secondary p-8 rounded-xl border border-accent-cyan/30">
+            <h3 class="text-lg font-bold text-accent-cyan font-inter mb-3">Incluye</h3>
+            <ul class="space-y-2">
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-cyan mr-2">▹</span>Diseño y desarrollo web
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-cyan mr-2">▹</span>Hosting y dominio administrados
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-cyan mr-2">▹</span>Optimización de rendimiento
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <FinalCTA />
+  <Footer />
+</Layout>

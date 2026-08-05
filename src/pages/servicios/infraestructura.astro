@@ -1,0 +1,115 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import SubpageHero from '../../components/subpage-hero.astro';
+import FinalCTA from '../../components/FinalCTA.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<Layout title="Infraestructura, Redes y Seguridad - XPEEDnet">
+  <Navbar />
+
+  <SubpageHero
+    title="Infraestructura, Redes y Seguridad"
+    description="Diseñamos, administramos y protegemos la infraestructura de tu negocio: redes confiables, servidores estables y datos respaldados."
+    accent="text-accent-violet"
+  />
+
+  <main>
+    <!-- Redes Cableadas y WiFi -->
+    <section class="bg-bg-primary py-16 md:py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold text-text-primary font-inter">
+              Redes Cableadas y WiFi
+            </h2>
+            <p class="text-text-secondary mt-4 font-inter leading-relaxed">
+              Diseño, instalación y optimización de redes cableadas e inalámbricas. Cobertura
+              estable y segura en todas tus oficinas y puntos de trabajo.
+            </p>
+          </div>
+          <div class="bg-bg-secondary p-8 rounded-xl border border-accent-violet/30">
+            <h3 class="text-lg font-bold text-accent-violet font-inter mb-3">Incluye</h3>
+            <ul class="space-y-2">
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Instalación y cableado estructurado
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Configuración de WiFi empresarial
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Segmentación de red y control de acceso
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Administración de Servidores Windows -->
+    <section class="bg-bg-secondary py-16 md:py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div class="bg-bg-primary p-8 rounded-xl border border-accent-violet/30 order-2 md:order-1">
+            <h3 class="text-lg font-bold text-accent-violet font-inter mb-3">Incluye</h3>
+            <ul class="space-y-2">
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Administración de Active Directory
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Actualizaciones y parches de seguridad
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Monitoreo de disponibilidad
+              </li>
+            </ul>
+          </div>
+          <div class="order-1 md:order-2">
+            <h2 class="text-2xl md:text-3xl font-bold text-text-primary font-inter">
+              Administración de Servidores Windows
+            </h2>
+            <p class="text-text-secondary mt-4 font-inter leading-relaxed">
+              Implementación y administración de servidores Windows. Configuración, mantenimiento
+              y monitoreo para que tus servicios críticos estén siempre disponibles.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seguridad de Datos y Backups -->
+    <section class="bg-bg-primary py-16 md:py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h2 class="text-2xl md:text-3xl font-bold text-text-primary font-inter">
+              Seguridad de Datos y Backups
+            </h2>
+            <p class="text-text-secondary mt-4 font-inter leading-relaxed">
+              Protegemos tu información con respaldos automáticos y políticas de seguridad.
+              Ante cualquier incidente, tus datos están disponibles y tu negocio sigue operando.
+            </p>
+          </div>
+          <div class="bg-bg-secondary p-8 rounded-xl border border-accent-violet/30">
+            <h3 class="text-lg font-bold text-accent-violet font-inter mb-3">Incluye</h3>
+            <ul class="space-y-2">
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Backups automáticos programados
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Antivirus y protección de endpoints
+              </li>
+              <li class="text-text-secondary font-inter flex items-start">
+                <span class="text-accent-violet mr-2">▹</span>Plan de recuperación ante desastres
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <FinalCTA />
+  <Footer />
+</Layout>

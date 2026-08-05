@@ -1,19 +1,34 @@
-<section class="bg-bg-primary py-20 md:py-32">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section id="hero" class="relative bg-bg-primary py-20 md:py-32 overflow-hidden">
+  <!-- Video de fondo -->
+  <video
+    class="absolute inset-0 w-full h-full object-cover"
+    src="/videos/hero.mp4"
+    autoplay
+    muted
+    loop
+    playsinline
+    aria-hidden="true"
+    tabindex="-1"
+  ></video>
+
+  <!-- Overlay oscuro -->
+  <div class="absolute inset-0 bg-bg-primary/80"></div>
+
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid md:grid-cols-2 gap-12 md:gap-16 items-center">
       <!-- Columna izquierda (contenido) -->
-      <div>
+      <div class="animate-fade-in">
         <h1 class="text-4xl md:text-6xl font-bold text-text-primary leading-tight font-inter">
           Mantenemos tu negocio andando. Soporte técnico, redes y optimización para PyMEs.
         </h1>
-        
+
         <p class="text-lg md:text-xl text-text-secondary mt-6 font-inter">
           Nos encargamos del mantenimiento de tus equipos y sistemas para que tu operación nunca se detenga.
         </p>
-        
+
         <a
           href="#contacto"
-          class="inline-block bg-accent-cyan text-bg-primary font-semibold px-8 py-4 rounded-lg mt-8 hover:bg-accent-cyan/90 transition-all duration-200 shadow-lg shadow-accent-cyan/20 hover:shadow-accent-cyan/30"
+          class="inline-block bg-accent-cyan text-bg-primary font-semibold px-8 py-4 rounded-lg mt-8 hover:bg-accent-cyan/90 transition-all duration-300 hover:scale-105 shadow-lg shadow-accent-cyan/20 hover:shadow-accent-cyan/30"
         >
           Solicitá un diagnóstico
         </a>

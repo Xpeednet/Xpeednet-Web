@@ -1,6 +1,6 @@
-# Xpeednet Web
+# XPEEDnet Web
 
-Sitio web institucional estático para Xpeednet, enfocado en servicios IT para PyMEs. Construido con Astro y Tailwind CSS.
+Sitio web institucional estático para XPEEDnet, enfocado en servicios IT para PyMEs. Construido con Astro y Tailwind CSS.
 
 ## 🚀 Inicio Rápido
 
